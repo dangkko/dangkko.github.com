@@ -1,5 +1,5 @@
 # dangkko.github.com
-# github Base page
+# Base page
 Base폴더에서 기본세팅 파일을 다운로드 후 프로젝트 세팅을 한다.
 # 
  
