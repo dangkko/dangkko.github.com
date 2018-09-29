@@ -24,3 +24,7 @@ NanumSquare
 SpoqaHanSan
 
 @import url(//dangkko.github.io/dangkko.github.com/SpoqaHanSan/css/SpoqaHanSans.css);
+
+github Base page
+Base폴더에서 기본세팅 파일을 다운로드 후 프로젝트 세팅을 한다.
+
