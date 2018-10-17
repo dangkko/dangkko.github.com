@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @font-face {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
@@ -7,6 +9,7 @@
 		 url('../font/NotoSans-Thin.woff2') format('woff2'),
 		 url('../font/NotoSans-Thin.woff') format('woff');
 }
+
 @font-face {
 	font-family: 'Noto Sans KR';
 	font-style: normal;
