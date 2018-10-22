@@ -2,7 +2,17 @@
 # Base page
 Base폴더에서 기본세팅 파일을 다운로드 후 프로젝트 세팅을 한다.
 # 
- 
+
+# AritaBuri
+@import url(//dangkko.github.io/dangkko.github.com/AritaBuri/css/arita_buri.css);
+
+font-family: 'AritaBuri';
+
+# AritaDodum
+@import url(//dangkko.github.io/dangkko.github.com/AritaDodum/css/arita_dodum.css);
+
+font-family: 'AritaDotum';
+
 # NotoKR
 @import url(//dangkko.github.io/dangkko.github.com/NotoKR/css/noto-sans-kr.css);
 
