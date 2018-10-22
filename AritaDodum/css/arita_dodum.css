@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'AritaDotum';
+	font-style: normal;
+	font-weight: 100;
+	src: url('../font/Arita-dodumT.eot');
+	src: url('../font/Arita-dodumT.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Arita-dodumT.woff2') format('woff2'),
+		 url('../font/Arita-dodumT.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'AritaDotum';
+	font-style: normal;
+	font-weight: 200;
+	src: url('../font/Arita-dodumL.eot');
+	src: url('../font/Arita-dodumL.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Arita-dodumL.woff2') format('woff2'),
+		 url('../font/Arita-dodumL.woff') format('woff');
+}
+ 
+@font-face {
+	font-family: 'AritaDotum';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../font/Arita-dodumM.eot');
+	src: url('../font/Arita-dodumM.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Arita-dodumM.woff2') format('woff2'),
+		 url('../font/Arita-dodumM.woff') format('woff');
+}
+ 
+@font-face {
+	font-family: 'AritaDotum';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../font/Arita-dodumSB.eot');
+	src: url('../font/Arita-dodumSB.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Arita-dodumSB.woff2') format('woff2'),
+		 url('../font/Arita-dodumSB.woff') format('woff');
+}
+ 
+@font-face {
+	font-family: 'AritaDotum';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../font/Arita-dodumB.eot');
+	src: url('../font/Arita-dodumB.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Arita-dodumB.woff2') format('woff2'),
+		 url('../font/Arita-dodumB.woff') format('woff');
+}
