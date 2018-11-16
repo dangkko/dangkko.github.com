@@ -18,6 +18,11 @@ font-family: 'AritaDotum';
 
 font-family: 'Noto Sans KR';
 
+# NotoKR_v7 - google
+@import url(//dangkko.github.io/dangkko.github.com/NotoKR_v7/css/noto-sans-kr.css);
+
+font-family: 'Noto Sans KR';
+
 # NanumGothic
 @import url(//dangkko.github.io/dangkko.github.com/NanumGothic/css/nanumgothic.css);
 
