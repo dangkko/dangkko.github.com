@@ -40,10 +40,13 @@ ul.bbsList li .subject:focus{color:#f15b6d;}
 ul.bbsList li .more{overflow:hidden; position:absolute; right:15px; top:50%; width:36px; height:36px; margin-top:-16px; background:#fff; border:1px solid #ddd; transition:all 0.3s ease 0s;}
 ul.bbsList li .more em{display:none; padding-left:10px; color:#f15b6d; line-height:36px;}
 ul.bbsList li .more:before{content:''; display:block; position:absolute; left:50%; top:50%; width:14px; height:14px; margin:-7px 0 0 -7px; background:url(../images/board/icon_more.png) no-repeat 0 0;}
+ul.bbsList li .more.active,
 ul.bbsList li .more:hover,
 ul.bbsList li .more:focus{width:110px; border-color:#f15b6d;}
+ul.bbsList li .more.active em,
 ul.bbsList li .more:hover em,
 ul.bbsList li .more:focus em{display:block;}
+ul.bbsList li .more.active:before,
 ul.bbsList li .more:hover:before,
 ul.bbsList li .more:focus:before{background-position:0 -14px; right:10px; left:auto; margin-left:0px;}
 ul.bbsList li .notice{display:inline-block; width:25px; height:25px; margin-right:10px; margin-top:-5px; background:#f69036; border-radius:50%; text-align:center; vertical-align:middle; text-indent:100%; overflow:hidden; white-space:nowrap;}
@@ -73,15 +76,16 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 .blogList li{padding:20px 5px; border-bottom:1px solid #e1e1e1; transition:all 0.3s ease 0s;}
 .blogList li:after{content:''; display:block; clear:both;}
 .blogList li > a{display:block; letter-spacing:-0.5px;}
-.blogList li span{display:inline-block; color:#333; font-weight:500; font-size:16px;}
-.blogList li p{margin-top:10px; line-height:1.4em; letter-spacing:-1px; font-size:15px;}
-.blogList li em{display:block; margin-top:10px; font-size:13px;} 
+.blogList li em{display:inline-block; color:#333; font-weight:500; font-size:18px;}
+.blogList li p{margin-top:10px; line-height:1.4em; letter-spacing:-1px; font-size:16px; word-break:keep-all;}
+.blogList li i{display:block; margin-top:10px; font-size:13px;}
 .blogList li:hover,
 .blogList li:focus{background:#f0f6f8;}
-.blogList li img{float:left; width:142px; height:95px;}
-.blogList li img ~ span{margin-left:18px;}
-.blogList li img ~ p,
-.blogList li img ~ em{margin-left:160px;}
+.blogList li .img{float:left; display:block; overflow:hidden; width:150px; height:120px; text-align:center;}
+.blogList li .img img{object-fit:cover; height:100%; margin-left:-100%; margin-right:-100%;}
+.blogList li .img ~ em{margin-left:25px;}
+.blogList li .img ~ p,
+.blogList li .img ~ i{margin-left:175px;}
 
 /* bbsView */
 .bbsTitle{padding:10px !important; margin:0px !important; border-top:2px solid #868686; font-size:18px !important; font-weight:400 !important; color:#222 !important;}
@@ -320,7 +324,7 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 	.bbsList td[data-table="number"]{display:none;}
 	.bbsList td[data-table="subject"]{padding:0px; border-bottom:1px dashed #e4e4e4;}
 	.bbsList td[data-table="subject"] > a{display:block; padding:10px;}
-	.bbsList td[data-table="date"]{position:absolute; right:0px; bottom:0px; width:80px;}
+	.bbsList td[data-table="date"]{position:absolute; right:0px; bottom:0px; width:80px; letter-spacing:-1px;}
 	.bbsList td[data-table="write"]{padding-right:110px; text-align:left;}
 	.bbsList td[data-table="category"]{border-bottom:1px dashed #e4e4e4; text-align:left; color:#148f77;}
 	.bbsList .reply:before,
@@ -339,10 +343,10 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 	
 	.blogList li{padding:15px 0;}
 	.blogList li > a{position:relative; min-height:67px;}
-	.blogList li img{float:none; width:99px; height:67px; position:absolute; left:0px; top:50%; margin-top:-35px;}
-	.blogList li img ~ span,
-	.blogList li img ~ p,
-	.blogList li img ~ em{margin-left:109px;}
+	.blogList li .img{float:none; width:120px; height:100px; position:absolute; left:0px; top:20px;}
+	.blogList li .img ~ em,
+	.blogList li .img ~ p,
+	.blogList li .img ~ i{margin-left:140px;}
 	
 	.pdfList li{float:none !important; width:100%;}
 	
@@ -394,12 +398,21 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 	.bbsView dl:not(.col02) dd{margin-left:130px;}
 	
 	.comment_area .comment_password input[type="password"]{display:block; width:200px; margin:0 auto 5px;}
+	
+	.blogList li p{overflow:hidden; height:65px;}
 }
 
 @media all and (max-width:420px){
 	.bbsView td.tel > input[type="text"],
 	.bbsView td.tel > select{display:block; width:100% !important; margin:2px 0px;}
 	.bbsView td.tel > span{display:none;}
+}
+
+@media all and (max-width:380px){
+	.search_bbs .search{position:relative;}
+	.search_bbs .search select{position:absolute; left:0px; top:0px; width:70px;}
+	.search_bbs .search .button{position:absolute; right:0px; top:0px;}
+	.search_bbs .search input[type="text"]{width:100%; padding-left:80px; padding-right:70px;}
 }
 
 @media all and (max-width:360px){
@@ -413,12 +426,7 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 	ul.bbsList li .more{display:none;}
 	
 	.photoList > li{float:none !important; width:100%;}
-	
-	.search_bbs .search{position:relative;}
-	.search_bbs .search select{position:absolute; left:0px; top:0px; width:70px;}
-	.search_bbs .search .button{position:absolute; right:0px; top:0px;}
-	.search_bbs .search input[type="text"]{width:100%; padding-left:80px; padding-right:70px;}
-	
+		
 	.bbsView th[data-view="count"] + td{width:40px !important;}
 	.bbsView col[data-write="th"]{width:100px !important;}
 }
