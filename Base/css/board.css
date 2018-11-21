@@ -262,11 +262,18 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 .secret_area .button:before{height:43px;}
 
 /* design radio */
-.designRadio input[type="radio"]{position:absolute; top:0px; left:0px; opacity:0;}
+.designRadio input[type="radio"]{position:absolute; opacity:0;}
 .designRadio input[type="radio"] + label{height:16px; padding-left:20px; padding-bottom:2px; margin-right:10px; cursor:pointer; background:url(../images/board/sp_radio.png) no-repeat 0 -16px; line-height:1em;}
 .designRadio.white input[type="radio"] + label{background:url(../images/board/sp_radio_w.png) no-repeat 0 -16px;}
 .designRadio input[type="radio"]:checked + label{background-position:0px 0px;}
 .designRadio input[type="radio"]:disabled + label{background-position:0px -32px;}
+
+/* design checkbox */
+.designCheck input[type="checkbox"]{position:absolute; opacity:0;}
+.designCheck input[type="checkbox"] + label{height:16px; padding-left:20px; padding-bottom:2px; margin-right:10px; cursor:pointer; background:url(../images/board/sp_check.png) no-repeat 0 -16px; line-height:1em;}
+.designCheck.white input[type="checkbox"] + label{background:url(../images/board/sp_check_w.png) no-repeat 0 -16px;}
+.designCheck input[type="checkbox"]:checked + label{background-position:0px 0px;}
+.designCheck input[type="checkbox"]:disabled + label{background-position:0px -32px;}
 
 
 @media all and (min-width:1025px){
