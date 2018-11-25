@@ -43,3 +43,22 @@
 .area_tree .list li.active > a.folder:before{background-image:url(../images/module/icon_tree_open.png);}
 .area_tree .list li a.on{color:#4286f3; font-weight:600;}
 .area_tree .list li.active > a{color:#111; font-weight:600;}
+
+/* data picker */
+input[data-form-type="datepicker"]{width:105px; text-align:center;}
+.ui-datepicker-trigger{display:inline-block; width:20px; height:20px; background:url(../images/module/img_calendar.png) no-repeat 50% 0; font-size:0px; vertical-align:middle;}
+.ui-datepicker{width:auto !important;}
+.ui-widget.ui-widget-content{z-index:50 !important; background:#fff;}
+.ui-datepicker .ui-datepicker-header{padding:0px; background:#fff; border:0px; border-bottom:1px dashed #cfcece;}
+.ui-datepicker .ui-datepicker-title select{height:30px; margin:1px 2px !important; font-size:14px;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{width:30px; height:30px; line-height:30px; background:transparent !important; border:0px !important; text-align:center;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{background:#1976d2 !important; border-radius:100%;}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{background:#f3d5a9 !important; border-radius:100%; color:#333 !important;}
+.ui-datepicker th{font-weight:400 !important; font-size:14px;}
+.ui-datepicker thead tr > th.ui-datepicker-week-end:first-child{color:#e91062;}
+.ui-datepicker thead tr > th.ui-datepicker-week-end:last-child{color:#2d7aee;}
+.ui-datepicker tbody tr > td.ui-datepicker-week-end:first-child a{color:#e91062;} 
+.ui-datepicker tbody tr > td.ui-datepicker-week-end:last-child a{color:#2d7aee;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{border:0px !important;}
+.ui-datepicker .ui-datepicker-prev-hover{left:2px !important;}
+.ui-datepicker .ui-datepicker-next-hover{right:2px !important;}

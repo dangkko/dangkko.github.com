@@ -20,7 +20,7 @@
 .join_area .box{padding-bottom:30px; border-bottom:1px dashed #d0d0d0;}
 .join_area .box:last-child{border-bottom-width:0px;}
 .join_area .box.join{position:relative; max-width:500px; box-sizing:border-box; padding-right:110px; margin:0 auto;}
-.join_area .box.join .button.login{position:absolute; top:0px; right:0px; height:109px; background:#f15b6d; border:1px solid #d64c5d;}
+.join_area .box.join .button.login{position:absolute; top:0px; right:0px; height:109px; margin:0px; background:#f15b6d; border:1px solid #d64c5d;}
 .join_area .box.find{max-width:500px; box-sizing:border-box; margin:0 auto;}
 .join_area .box.find h3 + table{margin-top:10px;}
 .join_area .box.find p{margin-top:10px; letter-spacing:-0.5px; font-size:13px;}
@@ -50,7 +50,7 @@
 	.join_area .bbsView td[data-member-form="email"] input{width:100%;}
 	.join_area .bbsView td[data-member-form="id"]{position:relative;}	
 	.join_area .bbsView td[data-member-form="id"] input{width:100%; padding-right:110px;}
-	.join_area .bbsView td[data-member-form="id"] .button.white{position:absolute; top:10px; right:10px;}	
+	.join_area .bbsView td[data-member-form="id"] .button.white{position:absolute; top:7px; right:10px;}	
 	.join_area .bbsView col[data-member-form="th"]{width:120px !important;}	
 	.join_area .bbsView col[data-member-form="td"]{width:auto !important;}	
 }

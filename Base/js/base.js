@@ -1,6 +1,6 @@
 /* 
  * base js Document
- * KOWEB kimhynho 
+ * DaeguWeb kimhynho 
 */ 
 
 //button
@@ -40,6 +40,33 @@ $(function(){
 	});
 });
 
+//li bbs
+$(function(){
+	$('ul.bbsList li').each(function(){
+		var bbsLink = $(this).find('.subject');
+		bbsLink.hover(function(){
+			$('ul.bbsList li .more').removeClass('active');
+			$(this).parent().find('.more').addClass('active');
+		});
+	})
+	$('ul.bbsList').mouseleave(function(){
+		$('ul.bbsList li .more').removeClass('active');
+	});
+});
+
+//input file design
+$(window).load(function(){
+	var uploadFile = $('.designFile input[type="file"]');
+	uploadFile.on('change', function(){
+		if(window.FileReader){
+			var filename = $(this)[0].files[0].name;
+		} else {
+			var filename = $(this).val().split('/').pop().split('\\').pop();
+		}
+		$(this).siblings('input[type="text"]').val(filename);
+	});
+});
+
 //top
 $(function(){
 	$(".btn_top").on('click', function(event) {
@@ -60,6 +87,7 @@ $(window).load(function(){
 	if($('.area_sitemap').length > 0){
 		var gnbSite = $('#header nav').html();
 		$('.area_sitemap').append(gnbSite);
+		$('.area_sitemap > ul > li > a').wrapInner('<span></span>');
 	}
 });
 
