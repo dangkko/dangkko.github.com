@@ -46,3 +46,13 @@ font-family: 'Nanum Square';
 @import url('https://dangkko.github.io/dangkko.github.com/SpoqaHanSan/css/SpoqaHanSans.css');
 
 font-family: 'Spoqa Han Sans';
+
+# Sunflower
+@import url('https://dangkko.github.io/dangkko.github.com/Sunflower/css/sunflower.css');
+
+font-family: 'Sunflower';
+
+# BlackHanSans
+@import url('https://dangkko.github.io/dangkko.github.com/BlackHanSans/css/blackhansans.css');
+
+font-family: 'Black Han Sans';
