@@ -67,9 +67,9 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 .photoList > li a:focus{background:#f0f6f8; box-shadow:0px 3px 15px rgba(0,0,0,0.10), 0px 20px 20px rgba(0,0,0,0.05);}
 .photoList > li a:hover img,
 .photoList > li a:focus img{opacity:0.7; transform:scale(1.1,1.1);}
-.photoList > li .write{position:relative; padding-top:7px; padding-bottom:7px; border-top:1px dashed #d8d8d8; color:#999;}
+.photoList > li .write{position:relative; min-height:25px; padding-top:7px; padding-bottom:7px; border-top:1px dashed #d8d8d8; color:#999;}
 .photoList > li .write em{position:absolute; left:15px; top:50%; margin-top:-7px; line-height:1em;}
-.photoList > li .write i{display:block; padding-left:85px; text-align:right;}
+.photoList > li .write i{display:block; line-height:25px; padding-left:85px; text-align:right;}
 
 /* blog style */
 .blogList{border-top:2px solid #868686;}
