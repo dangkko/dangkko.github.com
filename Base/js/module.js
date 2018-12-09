@@ -65,3 +65,16 @@ $(function() {
 		});
 	}
 });
+
+//shop View
+$(function(){
+	if($('.shopPhoto').length > 0){
+		$('.shopPhoto .list').bxSlider({
+			auto:true,
+			mode:'horizontal',
+			//adaptiveHeight:true,
+			controls:false,
+		});	
+	}
+	
+});

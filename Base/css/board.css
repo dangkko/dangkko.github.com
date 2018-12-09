@@ -122,7 +122,7 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 
 *[class^="bbs"] ~ .btn_area{padding-top:50px;}
 
-.bbsView.dl{margin-top:20px; border-top:1px solid #868686;}
+.bbsView.dl{border-top:1px solid #868686;}
 .bbsView dl dt,
 .bbsView dl dd{box-sizing:border-box; padding:8px 15px; border-bottom:1px solid #d8d8d8; word-break:keep-all;}
 .bbsView dl dt{width:20%; background:#fff; border-left:1px solid #868686; border-right:1px solid #868686; box-shadow:3px 0px 0px rgba(0,0,0,0.1); text-align:left; font-weight:500; letter-spacing:-1px; vertical-align:middle;}
@@ -141,7 +141,7 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 .bbsView dl:last-child dt,
 .bbsView dl:last-child dd{border-bottom:1px solid #868686;}
 .bbsView dl.col02 dt{width:20%;}
-.bbsView dl.col02 dd{width:30%;}
+.bbsView dl.col02 dd{width:30%; vertical-align:middle;}
 .bbsView dl.col02 dt:nth-of-type(2){border-left-width:0px;}
 .bbsView dl.colspan{position:relative;}
 .bbsView dl.colspan dt{height:54px; vertical-align:top;}
@@ -408,10 +408,12 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 @media all and (max-width:480px){
 	.bbsView dl:after{content:''; display:block; clear:both;}
 	.bbsView dl dt,
-	.bbsView dl dd{float:left;}
-	.bbsView dl dt{width:130px !important; min-height:54px; border-left-width:0px;}
+	.bbsView dl dd{word-break:break-all;}
+	.bbsView dl dt{clear:left; float:left; width:130px !important; border:0px !important; box-shadow:none;}
 	.bbsView dl dt:after{content:''; display:inline-block; height:100%; vertical-align:middle;}
-	.bbsView dl dd{width:calc(100% - 130px) !important; min-height:54px;}
+	.bbsView dl dd{position:relative; width:100% !important; padding-left:145px;}
+	.bbsView dl dd:before{content:''; display:block; position:absolute; top:0px; left:130px; width:1px; height:100%; background:#868686; box-shadow:1px 0px 3px rgba(0,0,0,0.2)}
+	.bbsView dl dd:after{content:''; display:table; clear:both;}
 	.bbsView dl.col02 dt:nth-of-type(2){border-left-width:0px;}
 	.bbsView dl.colspan dd{position:static;}
 	.bbsView.dl{border:1px solid #868686; border-right-width:0px;}
@@ -419,7 +421,6 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 	.bbsView dl:last-child dd{border-bottom:1px solid #d8d8d8}
 	.bbsView dl:not(.col02){position:relative;}
 	.bbsView dl:not(.col02) dt{position:absolute; left:0px; top:0px; height:100%;}
-	.bbsView dl:not(.col02) dd{margin-left:130px;}
 	
 	.comment_area .comment_password input[type="password"]{display:block; width:200px; margin:0 auto 5px;}
 	
