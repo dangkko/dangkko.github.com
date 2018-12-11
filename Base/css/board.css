@@ -257,6 +257,10 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 .pdfList li > div:focus{border:1px solid #222; box-shadow:0 3px 10px rgba(0,0,0,0.10), 0 20px 20px rgba(0,0,0,0.05);}
 .pdfList li .date{margin:10px 0 20px; font-size:12px; color:#777;}
 
+/* video iframe */
+.iframe_video{position:relative; padding-bottom:55%;}
+.iframe_video iframe{position:absolute; top:0px; left:0px;}
+
 /* 비밀번호확인 */
 .secret_area{position:relative; margin:40px 0; text-align:center;}
 .secret_area:before{content:''; display:block; width:62px; height:62px; border:3px solid #59626a; border-radius:50%; margin:0 auto 20px;}

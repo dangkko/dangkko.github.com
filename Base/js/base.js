@@ -6,6 +6,7 @@
 //button
 $(function(){
 	$('a.button').wrapInner('<span></span>');
+	$('label.button').wrapInner('<span></span>');
 });
 
 //table tr
