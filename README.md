@@ -71,3 +71,8 @@ font-family: 'Sunflower';
 @import url('https://dangkko.github.io/dangkko.github.com/BlackHanSans/css/blackhansans.css');
 
 font-family: 'Black Han Sans';
+
+# IropkeBatang
+@import url('https://dangkko.github.io/dangkko.github.com/IropkeBatang/css/iropkebatang.css');
+
+font-family: 'IropkeBatang';
