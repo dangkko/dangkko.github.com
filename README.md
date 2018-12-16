@@ -47,11 +47,6 @@ font-family: 'Nanum Square';
 
 font-family: 'NanumSquareRound';
 
-# NanumSquareRound
-@import url('https://dangkko.github.io/dangkko.github.com/NanumSquareRound/css/nanumsquareround.css');
-
-font-family: 'NanumSquareRound';
-
 # NanumBarunGothic
 @import url('https://dangkko.github.io/dangkko.github.com/NanumBarunGothic/css/nanumbarungothic.css');
 
