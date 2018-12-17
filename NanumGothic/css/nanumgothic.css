@@ -3,6 +3,17 @@
 /*
  * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess
  */
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NanumGothicL.eot);
+  src: url(../font/NanumGothicL.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumGothicL.woff2) format('woff2'),
+       url(../font/NanumGothicL.woff) format('woff'),
+       url(../font/NanumGothicL.ttf) format('truetype');
+}
 @font-face {
   font-family: 'Nanum Gothic';
   font-style: normal;
