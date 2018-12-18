@@ -7,7 +7,8 @@
 	src: url('../font/Arita-buriHL.eot');
 	src: url('../font/Arita-buriHL.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Arita-buriHL.woff2') format('woff2'),
-		 url('../font/Arita-buriHL.woff') format('woff');
+		 url('../font/Arita-buriHL.woff') format('woff'),
+		 url('../font/Arita-buriHL.ttf') format('truetype');
 }
 
 @font-face {
@@ -17,7 +18,8 @@
 	src: url('../font/Arita-buriL.eot');
 	src: url('../font/Arita-buriL.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Arita-buriL.woff2') format('woff2'),
-		 url('../font/Arita-buriL.woff') format('woff');
+		 url('../font/Arita-buriL.woff') format('woff'),
+		 url('../font/Arita-buriL.ttf') format('truetype');
 }
  
 @font-face {
@@ -27,7 +29,8 @@
 	src: url('../font/Arita-buriM.eot');
 	src: url('../font/Arita-buriM.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Arita-buriM.woff2') format('woff2'),
-		 url('../font/Arita-buriM.woff') format('woff');
+		 url('../font/Arita-buriM.woff') format('woff'),
+		 url('../font/Arita-buriM.ttf') format('truetype');
 }
  
 @font-face {
@@ -37,7 +40,8 @@
 	src: url('../font/Arita-buriSB.eot');
 	src: url('../font/Arita-buriSB.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Arita-buriSB.woff2') format('woff2'),
-		 url('../font/Arita-buriSB.woff') format('woff');
+		 url('../font/Arita-buriSB.woff') format('woff'),
+		 url('../font/Arita-buriSB.ttf') format('truetype');
 }
  
 @font-face {
@@ -47,5 +51,6 @@
 	src: url('../font/Arita-buriB.eot');
 	src: url('../font/Arita-buriB.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Arita-buriB.woff2') format('woff2'),
-		 url('../font/Arita-buriB.woff') format('woff');
+		 url('../font/Arita-buriB.woff') format('woff'),
+		 url('../font/Arita-buriB.ttf') format('truetype');
 }
