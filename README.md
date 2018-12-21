@@ -76,3 +76,13 @@ font-family: 'Black Han Sans';
 @import url('https://dangkko.github.io/dangkko.github.com/IropkeBatang/css/iropkebatang.css');
 
 font-family: 'IropkeBatang';
+
+# HangeulNuri
+@import url('https://dangkko.github.io/dangkko.github.com/HangeulNuri/css/hangeulnuri.css');
+
+font-family: 'HangeulNuri';
+
+# NIXGON
+@import url('https://dangkko.github.io/dangkko.github.com/Nixgon/css/nixgon_v2.css');
+
+font-family: 'NIXGON';
