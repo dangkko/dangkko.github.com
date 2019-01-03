@@ -2,7 +2,6 @@
 
 /* 
  * module CSS Document
- * KOWEB kimhynho 
  */
  
 /* box */
@@ -66,7 +65,7 @@
 .shopConts{margin-top:20px;}
 
 /* tree UI */
-.area_tree .btn{display:inline-block; padding:7px 15px; background:#fff; border:1px solid #4286f3; border-radius:3px; fon-family:'Verdana'; color:#4286f3; font-size:12px; transition:all 0.3s ease 0s;}
+.area_tree .btn{display:inline-block; padding:7px 15px; background:#fff; border:1px solid #4286f3; border-radius:3px; color:#4286f3; font-size:12px; transition:all 0.3s ease 0s;}
 .area_tree .btn.active{background:#4286f3; color:#fff;}
 .area_tree .btn:hover{box-shadow:3px 3px 0px rgba(0,0,0,0.10);}
 .area_tree .btn.add:hover{background:#4286f3; color:#fff;}
