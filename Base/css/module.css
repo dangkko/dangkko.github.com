@@ -111,12 +111,67 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 .ui-datepicker .ui-datepicker-prev-hover{left:2px !important;}
 .ui-datepicker .ui-datepicker-next-hover{right:2px !important;}
 
+/* calendar */
+.area_calendar .control{position:relative; margin-bottom:20px;}
+.area_calendar .control > div{display:inline-block; border:1px solid #f4f4f4;}
+.area_calendar .control > div > *{display:inline-block; vertical-align:middle;}
+.area_calendar .control > div > p{height:48px; line-height:48px; padding:0 20px 0 48px; background:url(../images/module/img_calendar.png) no-repeat 20px 50%; border-right:1px solid #f4f4f4; border-left:1px solid #f4f4f4; font-size:20px;}
+.area_calendar .control > div a[class^="btn_"]{opacity:0.5; position:relative; height:48px; line-height:48px; box-sizing:border-box; padding:0 20px; font-size:0; transition:all 0.3s ease 0s;}
+.area_calendar .control > div a[class^="btn_"]:before{content:''; display:block; position:absolute; top:50%; left:50%; width:11px; height:17px; background:url(../images/module/img_calendar01.png) no-repeat 50% 0; background-size:100%; transform:translate(-50%, -50%);}
+.area_calendar .control > div a[class^="btn_"]:hover{opacity:1;}
+.area_calendar .control > div .btn_next{transform:rotate(180deg);}
+.area_calendar .control .btn_today{display:inline-block; position:absolute; top:0px; right:0px; min-width:100px; height:50px; line-height:48px; box-sizing:border-box; background:#365ec3; border:1px solid #2c52b1; color:#fff; font-size:15px; text-align:center;}
+.area_calendar .calendar{float:left; width:40%; box-sizing:border-box;}
+.area_calendar .calendar table{table-layout:fixed;}
+.area_calendar .calendar table th,
+.area_calendar .calendar table td{text-align:center;}
+.area_calendar .calendar table th{padding:10px; background:#365ec3; border:1px solid #365ec3; color:#fff; font-weight:300;}
+.area_calendar .calendar table td{height:70px; border:1px solid #e0e6e9; line-height:0em;}
+.area_calendar .calendar table td > a,
+.area_calendar.type02 .calendar table td > div{display:block; position:relative; height:100%; box-sizing:border-box; padding:28px 10px 5px; transition:all 0.4s ease-out 0s;}
+.area_calendar .calendar table td > a:hover,
+.area_calendar.type02 .calendar table td > div:hover{z-index:10; box-shadow:0 8px 15px rgba(0,0,0,0.10);}
+.area_calendar .calendar table th[data-calendar="sun"]{color:#fff;}
+.area_calendar .calendar table th[data-calendar="sat"]{color:#fff;}
+.area_calendar .calendar table td em{display:block; position:absolute; top:20px; left:0px; width:100%; text-align:center;}
+.area_calendar .calendar *[data-calenda="in"]{display:inline-block; position:relative; width:8px; height:8px; box-sizing:border-box; margin-top:3px; border:1px solid #e3e3fd; border-radius:100%; text-indent:100%; overflow:hidden; white-space:nowrap;}
+.area_calendar .calendar *[data-calenda="in"]:before{content:''; display:block; position:absolute; top:50%; left:50%; width:4px; height:4px; margin:-2px 0 0 -2px; background:#3e3ef4; border-radius:50%;}
+.area_calendar .calendar .today{background:#f2f5ff;}
+.area_calendar .calendar .on{background:#fff2f2 !important;}
+
+.area_calendar .list{float:left; overflow:hidden; position:relative; width:60%; box-sizing:border-box; background:#f2f6f8;}
+.area_calendar .list p{padding:12px 15px 10px; font-size:18px; font-weight:600;}
+.area_calendar .list li{border-top:1px dashed #e1e9ec}
+.area_calendar .list li > a,
+.area_calendar .list li > span{display:block; padding:15px 60px 15px 15px; font-weight:300; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; transition:all 0.4s ease-out 0s;}
+.area_calendar .list li > a:hover{background:#fff; color:#222;}
+.area_calendar .list li:first-child{border-top-style:solid;}
+.area_calendar .bx-controls{position:absolute; right:0px; bottom:0px; text-align:right;}
+.area_calendar .bx-controls a{display:inline-block; position:relative; width:50px; height:43px; box-sizing:border-box; border:1px solid #e1e9ec; background:#fff; border-right-width:0px; font-size:0px; vertical-align:top;}
+.area_calendar .bx-controls a.bx-next{border-right-width:1px;}
+.area_calendar .bx-controls a:before{content:''; display:block; position:absolute; top:50%; left:50%; width:8px; height:12px; margin:-6px 0 0 -4px; background:url(../images/module/img_calendar01.png) no-repeat 50% 0; background-size:100%;}
+.area_calendar .bx-controls a.bx-next:before{transform:rotate(180deg);}
+.area_calendar .view{clear:both; padding-top:40px;}
+
+@media all and (min-width:769px){
+	.area_calendar.type02 .calendar table td{height:100px;}
+	.area_calendar.type02 .calendar{float:none; width:100%;}
+	.area_calendar.type02 .calendar *[data-calenda="in"]{display:block; border:0px; width:auto; height:auto; padding-left:10px; margin:7px 0px; font-size:13px; line-height:1.2em; overflow:visible; text-indent:0; white-space:normal; text-align:left;}
+	.area_calendar.type02 .calendar *[data-calenda="in"]:before{top:3px; left:0px; margin:0px;}	
+	.area_calendar.type02 .list{display:none;}
+}
+
 @media all and (max-width:1024px){
 	.box_double.shop div.map{width:512px;}
 	.box_double.shop div.search{width:calc(100% - 512px); padding-right:30px; padding-left:30px;}
 	.box_double.shop div.search em{font-size:20px;}	
 	.box_double.shop div.search .form input[type="text"]{width:calc(100% - 105px);}
 	.box_double.shop div.search .form .button{min-width:100px;}
+	
+	.area_calendar .calendar,
+	.area_calendar .list{width:50%;}
+	.area_calendar .slide li > a,
+	.area_calendar .slide li > span{padding-right:30px;}
 }
 
 @media all and (max-width:900px){
@@ -127,6 +182,12 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 	.box_double.shop div.map{width:412px}
 	.box_double.shop div.map .jeju{padding:20px 4px;}
 	.box_double.shop div.search{width:calc(100% - 412px);}
+}
+
+@media all and (max-width:768px){
+	.area_calendar.type02 .calendar,
+	.area_calendar.type02 .list{float:none; width:100%;}	
+	.area_calendar.type02 .list{height:auto !important;}
 }
 
 @media all and (max-width:730px){
@@ -147,8 +208,15 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 	.shopPhoto{background:none;}
 	.shopPhoto .list > li{height:300px;}
 	.shopMap .root_daum_roughmap .wrap_map{height:300px !important;}
+	
+	.area_calendar .calendar,
+	.area_calendar .list{float:none; width:100%;}
+	.area_calendar .list{height:auto !important;}
+	.area_calendar .bx-controls{position:static;}
 }
 
 @media all and (max-width:360px){
 	.box_double.shop div.map .jeju:before{transform:rotate(-10deg);}
+	
+	.area_calendar .control .btn_today{min-width:70px;}
 }

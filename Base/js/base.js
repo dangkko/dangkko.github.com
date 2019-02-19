@@ -7,6 +7,7 @@
 $(function(){
 	$('a.button').wrapInner('<span></span>');
 	$('label.button').wrapInner('<span></span>');
+	$('button.button').wrapInner('<span></span>');
 });
 
 //table tr
@@ -60,12 +61,27 @@ $(window).load(function(){
 	var uploadFile = $('.designFile input[type="file"]');
 	uploadFile.on('change', function(){
 		if(window.FileReader){
-			var filename = $(this)[0].files[0].name;
+			if($(this)[0].files[0]){
+				var filename = $(this)[0].files[0].name;
+			} else {
+				var filename = "";
+			}
 		} else {
 			var filename = $(this).val().split('/').pop().split('\\').pop();
 		}
 		$(this).siblings('input[type="text"]').val(filename);
 	});
+		
+	var widthMatch = matchMedia("all and (max-width: 768px)");
+	var widthHandler = function(matchList) {
+	    if (matchList.matches) {
+	    	$('.designFile').attr('class','designFile mob');
+	    } else {
+	    	$('.designFile').attr('class','designFile');
+	    }
+	};
+	widthMatch.addListener(widthHandler);
+	widthHandler(widthMatch);
 });
 
 //top

@@ -76,5 +76,23 @@ $(function(){
 			controls:false,
 		});	
 	}
+});
+
+//calendar
+function calendarH(){	
+	var calendarHeight = $('.area_calendar .calendar').outerHeight();
+	$('.area_calendar .list').css('height',calendarHeight+'px');
+}
+$(function(){
+	window.onload = calendarH;
+	window.onresize = calendarH;
 	
+	$('.area_calendar .slide').bxSlider({
+		mode:'horizontal',
+		auto:false,
+		controls:true,
+		pager:false,
+		prevText:'이전',
+		nextText:'다음',
+	});
 });
