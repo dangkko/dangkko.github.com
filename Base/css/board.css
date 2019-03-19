@@ -115,6 +115,10 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 .bbsView td.date > span{margin-right:10px;}
 .bbsView td.category div{margin-top:3px;}
 .bbsView td.file > span{display:block; margin:2px 0;}
+.bbsView td.days input{width:110px; background:#e0e9f7; border-color:#9fb3d4;}
+.bbsView td.days span{display:inline-block; margin-right:5px;}
+.bbsView td.days span:after{content:','; display:inline-block;}
+.bbsView td.days span:last-child:after{display:none;}
 .bbsView.page{margin-top:20px;}
 .bbsView.page th,
 .bbsView.page td{padding:15px 15px 15px 25px;}

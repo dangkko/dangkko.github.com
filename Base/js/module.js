@@ -1,6 +1,5 @@
 /* 
  * module js Document
- * DaeguWeb kimhynho 
 */ 
 
 //tree UI
@@ -94,5 +93,15 @@ $(function(){
 		pager:false,
 		prevText:'이전',
 		nextText:'다음',
+	});
+});
+
+//product
+$(function(){
+	$('.productView .img ul a').hover(function(){
+		var proSrc = $(this).children('img').attr('src');
+		$('.productView .img ul a').removeClass('active');
+		$(this).addClass('active');
+		$('.productView .img span').children('img').attr('src', proSrc);
 	});
 });
