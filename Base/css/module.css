@@ -303,6 +303,7 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 	.box_double.shop div.map .jeju:before{transform:rotate(-10deg);}
 	
 	.area_calendar .control .btn_today{min-width:70px;}
+	.area_calendar .calendar .today > *:before{right:2px; width:13px; height:13px; line-height:13px;}
 	
 	.productList > li .img{height:180px;}
 	.productList > li i[class^="type"]{top:147px;}
