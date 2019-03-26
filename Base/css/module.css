@@ -139,7 +139,7 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 .area_calendar .calendar *[data-calenda="in"]{display:inline-block; position:relative; width:8px; height:8px; box-sizing:border-box; margin-top:3px; border:1px solid #e3e3fd; border-radius:100%; text-indent:100%; overflow:hidden; white-space:nowrap;}
 .area_calendar .calendar *[data-calenda="in"]:before{content:''; display:block; position:absolute; top:50%; left:50%; width:4px; height:4px; margin:-2px 0 0 -2px; background:#3e3ef4; border-radius:50%;}
 .area_calendar .calendar .today{background:#f2f5ff;}
-.area_calendar .calendar .today > *:before{content:'T'; display:inline-block; position:absolute; top:10px; right:5px; width:15px; height:15px; line-height:15px; border-radius:50%; background:#365ec3; color:#fff; font-size:10px;}
+.area_calendar .calendar .today > *:after{content:'T'; display:inline-block; position:absolute; top:10px; right:5px; width:15px; height:15px; line-height:15px; border-radius:50%; background:#365ec3; color:#fff; font-size:10px;}
 .area_calendar .calendar .on{background:#fff2f2 !important;}
 .area_calendar .calendar .none{background:#f3f3f3;}
 .area_calendar .calendar .none > *{overflow:hidden; cursor:default; color:#b7b7b7;}
@@ -303,7 +303,7 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 	.box_double.shop div.map .jeju:before{transform:rotate(-10deg);}
 	
 	.area_calendar .control .btn_today{min-width:70px;}
-	.area_calendar .calendar .today > *:before{right:2px; width:13px; height:13px; line-height:13px;}
+	.area_calendar .calendar .today > *:after{right:2px; width:13px; height:13px; line-height:13px;}
 	
 	.productList > li .img{height:180px;}
 	.productList > li i[class^="type"]{top:147px;}
