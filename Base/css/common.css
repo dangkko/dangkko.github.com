@@ -36,6 +36,14 @@ table th{font-weight:400;}
 .input400{width:400px !important;}
 .inputFull{width:100% !important;}
 
+/* text color */
+.txt_blue{color:#5971d1;}
+.txt_red{color:#d1597f;}
+.txt_green{color:#74b777;}
+.txt_gray{color:#989898;}
+.txt_black{color:#000;}
+.txt_orange{color:#e69035;}
+
 /* 필수입력 */
 .marking{display:inline-block; position:relative; width:10px; height:14px; margin-bottom:-2px; vertical-align:middle; text-indent:100%; overflow:hidden; white-space:nowrap;} 
 .marking:after{content:'*'; display:inline-block; position:absolute; top:0; left:0; line-height:17px; font-size:14px; font-weight:600; text-indent:0; color:#c51917;}
@@ -121,13 +129,6 @@ label.button.white:before{display:none;}
 .area_sitemap .gnb > li > ul > li > a:before{content:''; display:block; position:absolute; left:0px; top:13px; width:4px; height:1px; background:#666; transition:all 0.3s ease 0s;}
 .area_sitemap .gnb > li > ul > li > a:hover{color:#3c9ed6;}
 .area_sitemap .gnb > li > ul > li > a:hover:before{background:#3c9ed6;}
-
-/* layer pop */
-.layerPop{position:absolute; z-index:90;}
-.layerPop a{display:block;}
-.layerPop img{max-width:100%;}
-.layerPop .btn{padding:3px 10px; background:#292b42; text-align:right;}
-.layerPop .btn button{display:inline-block; margin-left:15px; background:none; color:#fff; font-size:12px;}
 
 @media all and (max-width:1024px){
 	.area_sitemap .gnb > li{width:32%; margin-left:2%; margin-bottom:30px;}

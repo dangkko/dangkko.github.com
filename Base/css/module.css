@@ -221,6 +221,14 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 .productWrite .tip:after{left:5px; background:#365ec3;}
 .productWrite .tip span{font-weight:500; color:#222;}
 
+/* 예약확인 */
+.reserve_date{padding:10px 20px; border:1px dotted #cfcece; font-size:18px;}
+.reserve_date span{display:inline-block; padding-right:5px; font-size:17px; color:#5971d1;}
+.reserve_date .datepicker{border:1px solid #ddd; padding:5px;}
+.reserve_date ~ h3{position:relative; margin-top:40px; margin-bottom:10px; font-size:20px; letter-spacing:-1px; font-weight:400;}
+.reserve_state{margin-left:30px; font-size:16px; font-weight:300;}
+.reserve_state i{color:#5971d1; font-weight:500;}
+
 @media all and (min-width:769px){
 	.area_calendar.type02 .calendar table td{height:100px;}
 	.area_calendar.type02 .calendar{float:none; width:100%;}
@@ -307,4 +315,7 @@ input[data-form-type="datepicker"]{width:105px; text-align:center;}
 	
 	.productList > li .img{height:180px;}
 	.productList > li i[class^="type"]{top:147px;}
+
+	.reserve_date{font-size:16px;}
+	.reserve_date span{font-size:15px;}
 }
