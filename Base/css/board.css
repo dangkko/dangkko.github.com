@@ -202,7 +202,7 @@ ul.bbsList li .notice:before{content:'공'; display:block; color:#fff; text-inde
 
 /* nodata */
 .none_data{padding:20px 10px; border-bottom:1px solid #eaecf1; text-align:center; font-weight:300;}
-.none_data.type02{margin-top:30px; padding:40px 10px; border-top:1px dashed #eaecf1; border-bottom:1px dashed #eaecf1; font-size:16pxx; text-align:center; font-weight:300;}
+.none_data.type02{margin-top:30px; padding:40px 10px; border-top:1px dashed #eaecf1; border-bottom:1px dashed #eaecf1; font-size:16px; text-align:center; font-weight:300;}
 
 /* agree */
 .box_privacy{margin-bottom:40px;}
