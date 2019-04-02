@@ -1,11 +1,4 @@
 # dangkko.github.com
-# Base page
-Base폴더에서 기본세팅 파일을 다운로드 후 프로젝트 세팅을 한다.
-# 
-
-# Design Guide
-디자인 가이드를 참고해서 컨텐츠 작업을 참고한다.
-['http://combine.daeguweb.gethompy.com/'](http://combine.daeguweb.gethompy.com/)
 
 # AritaBuri
 @import url('https://dangkko.github.io/dangkko.github.com/AritaBuri/css/arita_buri.css');
