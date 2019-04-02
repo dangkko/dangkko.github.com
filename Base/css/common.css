@@ -130,6 +130,13 @@ label.button.white:before{display:none;}
 .area_sitemap .gnb > li > ul > li > a:hover{color:#3c9ed6;}
 .area_sitemap .gnb > li > ul > li > a:hover:before{background:#3c9ed6;}
 
+/* layer pop */
+.layerPop{position:absolute; z-index:90;}
+.layerPop a{display:block;}
+.layerPop img{max-width:100%;}
+.layerPop .btn{padding:3px 10px; background:#292b42; text-align:right;}
+.layerPop .btn button{display:inline-block; margin-left:15px; background:none; color:#fff; font-size:12px;}
+
 @media all and (max-width:1024px){
 	.area_sitemap .gnb > li{width:32%; margin-left:2%; margin-bottom:30px;}
 	.area_sitemap .gnb > li:nth-child(3n+1){clear:both; margin-left:0px;}
