@@ -1,5 +1,10 @@
 # dangkko.github.com
 
+# ScoreDream
+@import url('https://dangkko.github.io/dangkko.github.com/ScoreDream/css/s_coredream.css');
+
+font-family: 'S-CoreDream';
+
 # AritaBuri
 @import url('https://dangkko.github.io/dangkko.github.com/AritaBuri/css/arita_buri.css');
 
