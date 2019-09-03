@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'AritaBuri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/Arita-buriM-subset.eot);
+  src: url(../font/Arita-buriM-subset.eot?iefix) format("embedded-opentype"), url(../font/Arita-buriM-subset.woff) format("woff"); }
+
+@font-face {
+  font-family: 'AritaBuri';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/Arita-buriSB-subset.woff) format("woff"); 
+  src: url(../font/Arita-buriSB-subset.eot?iefix) format("embedded-opentype"), url(../font/Arita-buriSB-subset.woff) format("woff"); }
+
