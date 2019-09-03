@@ -5,6 +5,9 @@
 
 font-family: 'S-CoreDream';
 
+# AritaBuri_v2
+@import url('https://dangkko.github.io/dangkko.github.com/AritaBuri_v2/css/arita.css');
+
 # AritaBuri
 @import url('https://dangkko.github.io/dangkko.github.com/AritaBuri/css/arita_buri.css');
 
