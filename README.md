@@ -1,5 +1,20 @@
 # dangkko.github.com
 
+# LotteMartDream
+@import url('https://dangkko.github.io/dangkko.github.com/LotteMartDream/css/lottemart-dream.css');
+
+font-family: 'LMDream';
+
+# KOMACON
+@import url('https://dangkko.github.io/dangkko.github.com/KOMACON/css/komacon.css');
+
+font-family: 'KOMACON';
+
+# KDB
+@import url('https://dangkko.github.io/dangkko.github.com/KDB/css/kdb.css');
+
+font-family: 'KDB';
+
 # ScoreDream
 @import url('https://dangkko.github.io/dangkko.github.com/ScoreDream/css/s_coredream.css');
 
