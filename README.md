@@ -1,5 +1,10 @@
 # dangkko.github.com
 
+# BinggraeMelona
+@import url('https://dangkko.github.io/dangkko.github.com/BinggraeMelona/css/BinggraeMelona.css');
+
+font-family: 'BinggraeMelona';
+
 # LotteMartDream
 @import url('https://dangkko.github.io/dangkko.github.com/LotteMartDream/css/lottemart-dream.css');
 
