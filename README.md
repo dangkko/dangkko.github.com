@@ -1,5 +1,10 @@
 # dangkko.github.com
 
+# Maplestory
+@import url('https://dangkko.github.io/dangkko.github.com/Maplestory/css/maplestory.css');
+
+font-family: 'Maplestory';
+
 # BinggraeMelona
 @import url('https://dangkko.github.io/dangkko.github.com/BinggraeMelona/css/BinggraeMelona.css');
 
