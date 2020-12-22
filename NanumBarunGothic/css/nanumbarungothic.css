@@ -7,40 +7,32 @@
 @font-face {
   font-family: 'NanumBarunGothic';
   font-style: normal;
-  font-weight: 100;
-  src: url(../font/NanumBarunGothicUL.eot);
-  src: url(../font/NanumBarunGothicUL.eot?#iefix) format('embedded-opentype'),
-       url(../font/NanumBarunGothicUL.woff2) format('woff2'),
+  font-weight: 100;  
+  src: url(../font/NanumBarunGothicUL.woff2) format('woff2'),
        url(../font/NanumBarunGothicUL.woff) format('woff'),
        url(../font/NanumBarunGothicUL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'NanumBarunGothic';
   font-style: normal;
-  font-weight: 300;
-  src: url(../font/NanumBarunGothicL.eot);
-  src: url(../font/NanumBarunGothicL.eot?#iefix) format('embedded-opentype'),
-       url(../font/NanumBarunGothicL.woff2) format('woff2'),
+  font-weight: 300; 
+  src: url(../font/NanumBarunGothicL.woff2) format('woff2'),
        url(../font/NanumBarunGothicL.woff) format('woff'),
        url(../font/NanumBarunGothicL.ttf) format('truetype');
 }
 @font-face {
   font-family: 'NanumBarunGothic';
   font-style: normal;
-  font-weight: 400;
-  src: url(../font/NanumBarunGothicR.eot);
-  src: url(../font/NanumBarunGothicR.eot?#iefix) format('embedded-opentype'),
-       url(../font/NanumBarunGothicR.woff2) format('woff2'),
+  font-weight: 400; 
+  src: url(../font/NanumBarunGothicR.woff2) format('woff2'),
        url(../font/NanumBarunGothicR.woff) format('woff'),
        url(../font/NanumBarunGothicR.ttf) format('truetype');
 }
 @font-face {
   font-family: 'NanumBarunGothic';
   font-style: normal;
-  font-weight: 700;
-  src: url(../font/NanumBarunGothicB.eot);
-  src: url(../font/NanumBarunGothicB.eot?#iefix) format('embedded-opentype'),
-       url(../font/NanumBarunGothicB.woff2) format('woff2'),
+  font-weight: 700; 
+  src: url(../font/NanumBarunGothicB.woff2) format('woff2'),
        url(../font/NanumBarunGothicB.woff) format('woff'),
        url(../font/NanumBarunGothicB.ttf) format('truetype');
 }

@@ -4,30 +4,24 @@
 	font-family: 'KDB';
 	font-style: normal;
 	font-weight: 300;  	
-	src: local('※'),
-	url(../font/KDBRPro.woff2) format('woff2'),
-	url(../font/KDBRPro.woff) format('woff'),
-	url(../font/KDBRPro.ttf) format('truetype');
-	src: url(../font/KDBRPro.eot);
+	src: url(../font/KDBRPro.woff2) format('woff2'),
+		 url(../font/KDBRPro.woff) format('woff'),
+		 url(../font/KDBRPro.ttf) format('truetype');
 }
 
 @font-face {
 	font-family: 'KDB';
 	font-style: normal;
 	font-weight: 400;	
-	src: local('※'),
-	url(../font/KDBMPro.woff2) format('woff2'),
-	url(../font/KDBMPro.woff) format('woff'),
-	url(../font/KDBMPro.ttf) format('truetype');
-	src: url(../font/KDBMPro.eot);
+	src: url(../font/KDBMPro.woff2) format('woff2'),
+	 	 url(../font/KDBMPro.woff) format('woff'),
+		 url(../font/KDBMPro.ttf) format('truetype');
 }
 @font-face {
 	font-family: 'KDB';
 	font-style: normal;
 	font-weight: 500;	
-	src: local('※'),
-	url(../font/KDBBPro.woff2) format('woff2'),
-	url(../font/KDBBPro.woff) format('woff'),
-	url(../font/KDBBPro.ttf) format('truetype');
-	src: url(../font/KDBBPro.eot);
+	src: url(../font/KDBBPro.woff2) format('woff2'),
+		 url(../font/KDBBPro.woff) format('woff'),
+		 url(../font/KDBBPro.ttf) format('truetype');
 }

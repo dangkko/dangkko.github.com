@@ -8,9 +8,7 @@
   font-family: 'IropkeBatang';
   font-style: normal;
   font-weight: 400;
-  src: url(../font/IropkeBatangM.eot);
-  src: url(../font/IropkeBatangM.eot?#iefix) format('embedded-opentype'),
-       url(../font/IropkeBatangM.woff2) format('woff2'),
+  src: url(../font/IropkeBatangM.woff2) format('woff2'),
        url(../font/IropkeBatangM.woff) format('woff'),
        url(../font/IropkeBatangM.ttf) format('truetype');
 }

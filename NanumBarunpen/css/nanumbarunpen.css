@@ -7,20 +7,16 @@
 @font-face {
   font-family: 'NanumBarunpen';
   font-style: normal;
-  font-weight: 400;
-  src: url(../font/NanumBarunpenR.eot);
-  src: url(../font/NanumBarunpenR.eot?#iefix) format('embedded-opentype'),
-       url(../font/NanumBarunpenR.woff2) format('woff2'),
+  font-weight: 400; 
+  src: url(../font/NanumBarunpenR.woff2) format('woff2'),
        url(../font/NanumBarunpenR.woff) format('woff'),
        url(../font/NanumBarunpenR.ttf) format('truetype');
 }
 @font-face {
   font-family: 'NanumBarunpen';
   font-style: normal;
-  font-weight: 700;
-  src: url(../font/NanumBarunpenB.eot);
-  src: url(../font/NanumBarunpenB.eot?#iefix) format('embedded-opentype'),
-       url(../font/NanumBarunpenB.woff2) format('woff2'),
+  font-weight: 700; 
+  src: url(../font/NanumBarunpenB.woff2) format('woff2'),
        url(../font/NanumBarunpenB.woff) format('woff'),
        url(../font/NanumBarunpenB.ttf) format('truetype');
 }

@@ -3,10 +3,8 @@
 @font-face {
 	font-family: 'KOMACON';
 	font-style: normal;
-	font-weight: 400;
-	src: url(../font/KOMACON.eot);
-	src: local('※'),
-	url(../font/KOMACON.woff2) format('woff2'),
-	url(../font/KOMACON.woff) format('woff'),
-	url(../font/KOMACON.ttf) format('truetype');
+	font-weight: 400;	
+	src: url(../font/KOMACON.woff2) format('woff2'),
+		 url(../font/KOMACON.woff) format('woff'),
+		 url(../font/KOMACON.ttf) format('truetype');
 }
