@@ -3,32 +3,32 @@
 @font-face {
 	font-family: 'LMDream';
 	font-style: normal;
-	font-weight: 300;
-	src: url(../font/LotteMartDreamLight.eot);
+	font-weight: 300;	
 	src: local('※'),	
 	url(../font/LotteMartDreamLight.woff2) format('woff2'),
 	url(../font/LotteMartDreamLight.woff) format('woff'),
 	url(../font/LotteMartDreamLight.ttf) format('truetype');
+	src: url(../font/LotteMartDreamLight.eot);
 }
 
 @font-face {
 	font-family: 'LMDream';
 	font-style: normal;
-	font-weight: 400;
-	src: url(../font/LotteMartDreamMedium.eot);
+	font-weight: 400;	
 	src: local('※'),
 	url(../font/LotteMartDreamMedium.woff2) format('woff2'),
 	url(../font/LotteMartDreamMedium.woff) format('woff'),
 	url(../font/LotteMartDreamMedium.ttf) format('truetype');
+	src: url(../font/LotteMartDreamMedium.eot);
 }
 
 @font-face {
 	font-family: 'LMDream';
 	font-style: normal;
-	font-weight: 500;
-	src: url(../font/LotteMartDreamBold.eot);
+	font-weight: 500;	
 	src: local('※'),
 	url(../font/LotteMartDreamBold.woff2) format('woff2'),
 	url(../font/LotteMartDreamBold.woff) format('woff'),
 	url(../font/LotteMartDreamBold.ttf) format('truetype');
+	src: url(../font/LotteMartDreamBold.eot);
 }

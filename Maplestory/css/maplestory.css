@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Maplestory';
+  font-style: normal;
+  font-weight: 400;  
+  src: url('../font/MaplestoryLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/MaplestoryLight.woff') format('woff'), /* Modern Browsers */     
+	   url('../font/MaplestoryLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Maplestory';
+  font-style: normal;
+  font-weight: 600;  
+  src: url('../font/MaplestoryBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/MaplestoryBold.woff') format('woff'), /* Modern Browsers */
+	   url('../font/MaplestoryBold.ttf') format('truetype');
+}
