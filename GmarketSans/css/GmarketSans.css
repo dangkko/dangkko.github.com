@@ -4,25 +4,25 @@
   font-family: 'GmarketSans';
   font-style: normal;
   font-weight: 300;
-  src: url('./font/GmarketSansTTFLight.eot'); /* IE9 Compat Modes */
-  src: url('./font/GmarketSansTTFLight.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./font/GmarketSansTTFLight.woff') format('woff'); /* Modern Browsers */
+  src: url('../font/GmarketSansTTFLight.eot'); /* IE9 Compat Modes */
+  src: url('../font/GmarketSansTTFLight.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/GmarketSansTTFLight.woff') format('woff'); /* Modern Browsers */
 }
 
 @font-face {
   font-family: 'GmarketSans';
   font-style: normal;
   font-weight: 500;
-  src: url('./font/GmarketSansTTFMedium.eot'); /* IE9 Compat Modes */
-  src: url('./font/GmarketSansTTFMedium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./font/GmarketSansTTFMedium.woff') format('woff'); /* Modern Browsers */     
+  src: url('../font/GmarketSansTTFMedium.eot'); /* IE9 Compat Modes */
+  src: url('../font/GmarketSansTTFMedium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/GmarketSansTTFMedium.woff') format('woff'); /* Modern Browsers */     
 }
 
 @font-face {
   font-family: 'GmarketSans';
   font-style: normal;
   font-weight: 700;
-  src: url('./font/GmarketSansTTFBold.eot'); /* IE9 Compat Modes */
-  src: url('./font/GmarketSansTTFBold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./font/GmarketSansTTFBold.woff') format('woff'); /* Modern Browsers */
+  src: url('../font/GmarketSansTTFBold.eot'); /* IE9 Compat Modes */
+  src: url('../font/GmarketSansTTFBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/GmarketSansTTFBold.woff') format('woff'); /* Modern Browsers */
 }
