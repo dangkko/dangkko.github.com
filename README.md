@@ -1,29 +1,14 @@
 # dangkko.github.com
 
-# Maplestory
-@import url('https://dangkko.github.io/dangkko.github.com/Maplestory/css/maplestory.css');
+# NotoKR
+@import url('https://dangkko.github.io/dangkko.github.com/NotoKR/css/noto-sans-kr.css');
 
-font-family: 'Maplestory';
+font-family: 'Noto Sans KR';
 
-# BinggraeMelona
-@import url('https://dangkko.github.io/dangkko.github.com/BinggraeMelona/css/BinggraeMelona.css');
+# NotoKR_v7 - google
+@import url('https://dangkko.github.io/dangkko.github.com/NotoKR_v7/css/noto-sans-kr.css');
 
-font-family: 'BinggraeMelona';
-
-# LotteMartDream
-@import url('https://dangkko.github.io/dangkko.github.com/LotteMartDream/css/lottemart-dream.css');
-
-font-family: 'LMDream';
-
-# KOMACON
-@import url('https://dangkko.github.io/dangkko.github.com/KOMACON/css/komacon.css');
-
-font-family: 'KOMACON';
-
-# KDB
-@import url('https://dangkko.github.io/dangkko.github.com/KDB/css/kdb.css');
-
-font-family: 'KDB';
+font-family: 'Noto Sans KR';
 
 # ScoreDream
 @import url('https://dangkko.github.io/dangkko.github.com/ScoreDream/css/s_coredream.css');
@@ -45,15 +30,10 @@ font-family: 'AritaBuri';
 
 font-family: 'AritaDotum';
 
-# NotoKR
-@import url('https://dangkko.github.io/dangkko.github.com/NotoKR/css/noto-sans-kr.css');
+# GmarketSans
+@import url('https://dangkko.github.io/dangkko.github.com/GmarketSans/css/GmarketSans.css');
 
-font-family: 'Noto Sans KR';
-
-# NotoKR_v7 - google
-@import url('https://dangkko.github.io/dangkko.github.com/NotoKR_v7/css/noto-sans-kr.css');
-
-font-family: 'Noto Sans KR';
+font-family: 'GmarketSans';
 
 # NanumGothic
 @import url('https://dangkko.github.io/dangkko.github.com/NanumGothic/css/nanumgothic.css');
@@ -89,6 +69,31 @@ font-family: 'NanumBarunpen';
 @import url('https://dangkko.github.io/dangkko.github.com/SpoqaHanSan/css/SpoqaHanSans.css');
 
 font-family: 'Spoqa Han Sans';
+
+# Maplestory
+@import url('https://dangkko.github.io/dangkko.github.com/Maplestory/css/maplestory.css');
+
+font-family: 'Maplestory';
+
+# BinggraeMelona
+@import url('https://dangkko.github.io/dangkko.github.com/BinggraeMelona/css/BinggraeMelona.css');
+
+font-family: 'BinggraeMelona';
+
+# LotteMartDream
+@import url('https://dangkko.github.io/dangkko.github.com/LotteMartDream/css/lottemart-dream.css');
+
+font-family: 'LMDream';
+
+# KOMACON
+@import url('https://dangkko.github.io/dangkko.github.com/KOMACON/css/komacon.css');
+
+font-family: 'KOMACON';
+
+# KDB
+@import url('https://dangkko.github.io/dangkko.github.com/KDB/css/kdb.css');
+
+font-family: 'KDB';
 
 # Sunflower
 @import url('https://dangkko.github.io/dangkko.github.com/Sunflower/css/sunflower.css');
