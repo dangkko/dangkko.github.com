@@ -35,6 +35,11 @@ font-family: 'AritaDotum';
 
 font-family: 'GmarketSans';
 
+# Cafe24 아네모네
+@import url('https://dangkko.github.io/dangkko.github.com/Cafe24Ohsquare/css/Cafe24Ohsquare.css');
+
+font-family: 'Cafe24Ohsquare';
+
 # NanumGothic
 @import url('https://dangkko.github.io/dangkko.github.com/NanumGothic/css/nanumgothic.css');
 
@@ -79,31 +84,6 @@ font-family: 'Maplestory';
 @import url('https://dangkko.github.io/dangkko.github.com/BinggraeMelona/css/BinggraeMelona.css');
 
 font-family: 'BinggraeMelona';
-
-# LotteMartDream
-@import url('https://dangkko.github.io/dangkko.github.com/LotteMartDream/css/lottemart-dream.css');
-
-font-family: 'LMDream';
-
-# KOMACON
-@import url('https://dangkko.github.io/dangkko.github.com/KOMACON/css/komacon.css');
-
-font-family: 'KOMACON';
-
-# KDB
-@import url('https://dangkko.github.io/dangkko.github.com/KDB/css/kdb.css');
-
-font-family: 'KDB';
-
-# Sunflower
-@import url('https://dangkko.github.io/dangkko.github.com/Sunflower/css/sunflower.css');
-
-font-family: 'Sunflower';
-
-# BlackHanSans
-@import url('https://dangkko.github.io/dangkko.github.com/BlackHanSans/css/blackhansans.css');
-
-font-family: 'Black Han Sans';
 
 # IropkeBatang
 @import url('https://dangkko.github.io/dangkko.github.com/IropkeBatang/css/iropkebatang.css');
