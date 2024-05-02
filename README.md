@@ -1,5 +1,10 @@
 # dangkko.github.com
 
+# pretendard
+@import url('https://dangkko.github.io/dangkko.github.com/pretendard/css/pretendard-dynamic-subset.css');
+
+font-family: 'Pretendard';
+
 # NotoKR
 @import url('https://dangkko.github.io/dangkko.github.com/NotoKR/css/noto-sans-kr.css');
 
