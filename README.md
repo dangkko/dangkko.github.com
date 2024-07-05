@@ -38,7 +38,7 @@ font-family: 'AritaDotum';
 # GmarketSans
 @import url('https://dangkko.github.io/dangkko.github.com/GmarketSans/css/GmarketSans.css');
 
-font-family: 'GmarketSans';
+font-family: 'Gmarket Sans';
 
 # Cafe24 아네모네
 @import url('https://dangkko.github.io/dangkko.github.com/Cafe24Ohsquare/css/Cafe24Ohsquare.css');
