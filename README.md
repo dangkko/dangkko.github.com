@@ -70,37 +70,17 @@ font-family: 'NanumSquareRound';
 
 font-family: 'NanumBarunGothic';
 
-# NanumBarunpen
-@import url('https://dangkko.github.io/dangkko.github.com/NanumBarunpen/css/nanumbarunpen.css');
-
-font-family: 'NanumBarunpen';
-
 # SpoqaHanSan
 @import url('https://dangkko.github.io/dangkko.github.com/SpoqaHanSan/css/SpoqaHanSans.css');
 
 font-family: 'Spoqa Han Sans';
 
+# SpoqaHanSanNeo
+@import url('https://dangkko.github.io/dangkko.github.com/SqoqaHanSanNeo/css/SpoqaHanSansNeo.css');
+
+font-family: 'Spoqa Han Sans Neo';
+
 # Maplestory
 @import url('https://dangkko.github.io/dangkko.github.com/Maplestory/css/maplestory.css');
 
 font-family: 'Maplestory';
-
-# BinggraeMelona
-@import url('https://dangkko.github.io/dangkko.github.com/BinggraeMelona/css/BinggraeMelona.css');
-
-font-family: 'BinggraeMelona';
-
-# IropkeBatang
-@import url('https://dangkko.github.io/dangkko.github.com/IropkeBatang/css/iropkebatang.css');
-
-font-family: 'IropkeBatang';
-
-# HangeulNuri
-@import url('https://dangkko.github.io/dangkko.github.com/HangeulNuri/css/hangeulnuri.css');
-
-font-family: 'HangeulNuri';
-
-# NIXGON
-@import url('https://dangkko.github.io/dangkko.github.com/Nixgon/css/nixgon_v2.css');
-
-font-family: 'NIXGON';
